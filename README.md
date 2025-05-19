@@ -120,7 +120,7 @@ brew install git
 
 ### 📦 Clone the Repository
 ```
-git clone https://github.com/your-username/SpeechFlowGuard.git
+git clone https://github.com/RohanSardar/SpeechFlowGuard.git
 cd SpeechFlowGuard
 ```
 
