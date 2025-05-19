@@ -39,6 +39,7 @@ SpeechFlowGuard/
 │   ├── data_cleaning.ipynb
 │   └── tf-idf_model_train.ipynb
 ├── .gitignore
+├── docker-requirements.txt
 ├── Dockerfile
 ├── README.md
 └── requirements.txt
@@ -125,6 +126,45 @@ cd SpeechFlowGuard
 ```
 
 ## 🔧 How to Train the Model
+
+Ensure you have the following installed:
+- Python (≥ 3.12)
+- Conda (for Conda-based setup)
+- Virtualenv (install via `pip install virtualenv` if not already available)
+
+### 🐍 Using conda
+#### Create a conda virtual environment
+Run the following command to create a virtual environment in a specific directory:
+```
+conda create -p venv python=3.12 -y
+```
+#### Activate it
+```
+conda activate venv/
+```
+#### Install dependencies
+```
+pip install -r requirements.txt
+```
+
+### 💻 Using virtualenv
+Run the following command to create a virtual environment in a specific directory:
+```
+python -m virtualenv venv
+```
+#### Activate it
+- **Windows**
+```
+venv\Scripts\activate
+```
+- **Linux/macOS**
+```
+source venv/bin/activate
+```
+#### Install dependencies
+```
+pip install -r requirements.txt
+```
 
 Use the Jupyter notebooks in `notebooks/` or create a script to:
 
