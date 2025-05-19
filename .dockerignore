@@ -1,0 +1,24 @@
+# Ignore data and notebooks directories
+data/
+notebooks/
+
+# Common Python exclusions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Jupyter runtime and cache
+.ipynb_checkpoints/
+*.ipynb
+
+# Ignore OS and IDE files
+.DS_Store
+.vscode/
+.idea/
