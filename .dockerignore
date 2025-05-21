@@ -1,6 +1,9 @@
 # Ignore data and notebooks directories
 data/
 notebooks/
+.git/
+README.md
+requirements.txt
 
 # Common Python exclusions
 __pycache__/
